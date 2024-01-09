@@ -1,4 +1,4 @@
-package com.learnwithmohan
+package com.learnwithmohan.operators
 
 fun main() {
     val number = 10
