@@ -1,9 +1,8 @@
 package com.learnwithmohan.operators
 
 fun main() {
-    val number = 10
-    val biggerNumber = 12
-    val randomNumber = (1..20).random()
+    val number = 18
+    val biggerNumber = 18
 
     if (number > biggerNumber) {
         println("number is greater than biggerNumber")
@@ -27,13 +26,5 @@ fun main() {
 
     if (number != biggerNumber) {
         println("number is not equal to biggerNumber")
-    }
-
-    if (number < biggerNumber && number < randomNumber) {
-        println("number is less than biggerNumber and also less than randomNumber")
-    }
-
-    if (number < biggerNumber || number > randomNumber) {
-        println("number is less than biggerNumber and also less than randomNumber")
     }
 }
